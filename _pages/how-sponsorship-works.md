@@ -1,3 +1,7 @@
+---
+permalink: /how-sponsorship-works/
+---
+
 # SLC Developers Sponsorship Overview
 
 Salt Lake City Developers is always looking for sponsors for its events. We'd
