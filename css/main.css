@@ -1,9 +1,21 @@
 body {
-  background-color: #ddd;
+  background-color: #131926;
+  font-size: 16px;
+  color: #fff;
 }
-.list-inline{
-  display: flex
+
+a {
+  color: #7692cf;
 }
-li {
+
+header {
+  text-align: center;
+}
+
+header .list-inline {
   font-size: 2em;
+}
+
+.card {
+  color: #333;
 }

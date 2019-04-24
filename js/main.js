@@ -1,42 +1,37 @@
-$(document).ready(function () {
-  var myInit = {
-    method: 'GET',
-    cache: 'default'
-  };
+'use strict';
 
-  fetch('https://cors-anywhere.herokuapp.com/https://api.meetup.com/slcdevs/events?&amp;sign=true&amp;photo-host=public&amp;page=20', myInit)
-    .then(function (res) {
-      return res.json();
-    })
-    .then(function (data) {
-      if (data.length == 0) {
-        return;
-      }
+fetch('https://cors-anywhere.herokuapp.com/https://api.meetup.com/slcdevs/events?&amp;sign=true&amp;photo-host=public&amp;page=20', {
+  method: 'GET',
+  cache: 'default'
+}).then(function (res) {
+  return res.json();
+}).then(function (data) {
+  if (data.length == 0) {
+    return;
+  }
 
-      let title = data[0].name;
-      let description = data[0].description;
-      let link = data[0].link;
-      let address = ''
-      let venue = '';
+  let venue = '';
+  let address = '';
 
-      if (data[0].venue != null) {
-        address = data[0].venue.address_1;
-        venue = data[0].venue.name
-      }
+  if (data[0].venue != null) {
+    venue = data[0].venue.name
+    address = data[0].venue.address_1;
+  }
 
-      let date = data[0].local_date;
-      let time = data[0].local_time;
+  data.forEach(function(event, i) {
+    if (i > 2) {
+      return;
+    }
 
-      let html = `
-      <a href='${link}'>
-      <h2>${title}</h2>
-      </a>
-      <br>
-      <h3>${date} ${venue} ${address} ${time}</h3>
-      <br>${description}
-      `;
-
-      $("#jumbotron").html(html);
-
-    });
+    $("#events").append(`
+    <div class="card mb-3" id="event">
+      <div class="card-header">
+        <h3>${event.name}</h3>
+        ${event.local_date} ${event.local_time} ${venue} ${address} @ ${event.local_time}
+      </div>
+      <div class="card-body">
+        ${event.description}
+      </div>
+    </div>`);
+  });
 });
