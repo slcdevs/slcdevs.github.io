@@ -27,7 +27,8 @@ fetch('https://cors-anywhere.herokuapp.com/https://api.meetup.com/slcdevs/events
     <div class="card mb-3" id="event">
       <div class="card-header">
         <h3>${event.name}</h3>
-        ${event.local_date} ${event.local_time} ${venue} ${address} @ ${event.local_time}
+        <date>${event.local_date} @ ${event.local_time}</date><br>
+        ${venue} ${address}
       </div>
       <div class="card-body">
         ${event.description}
