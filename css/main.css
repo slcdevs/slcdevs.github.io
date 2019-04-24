@@ -1,7 +1,6 @@
 body {
-  background-color: #131926;
+  background-color: #dfe3ee;
   font-size: 16px;
-  color: #fff;
 }
 
 a {
@@ -14,8 +13,4 @@ header {
 
 header .list-inline {
   font-size: 2em;
-}
-
-.card {
-  color: #333;
 }
