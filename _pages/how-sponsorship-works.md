@@ -1,70 +1,42 @@
 ---
+layout: page
 permalink: /how-sponsorship-works/
+title: Sponsorship - SLCDevs
 ---
 
-# SLC Developers Sponsorship Overview
+# Sponsor SLC Developers
 
-Salt Lake City Developers is always looking for sponsors for its events. We'd
-love to have you! Sponsoring brings a personal touch to your recruiting efforts,
-technical impact on our area, and awareness to your brand.
+Salt Lake City Developers is a community built around hanging out, grabbing drinks, and connecting with other people in tech. We'd love to have your support.
 
-## Overview
+## What We Do
 
-Salt Lake City Developers holds two kinds of events each month: presentation
-nights and happy hours. Sponsoring either event is a minimum of $300. You can
-also sponsor drinks at a bar afterward, which varies depending on attendance of
-the particular event.
+We host regular happy hours at bars and restaurants around Salt Lake City. These are casual, social events where people show up, meet others in the industry, and have a good time. No presentations, no agendas, just good conversations.
 
-On presentation nights, we are currently averaging an RSVP rate of $X people.
-This event is generally more focused on a given presentation, and limits overall
-socialization in order to allow time for the presenter and Q&A.
+We also put on an annual bar crawl that has become one of the highlights of the local tech calendar.
 
-Happy Hours are unstructured evenings where people group up based on interest,
-generally at a bar. This evening also exists to allow for us to create project
-nights, meetup events, and workshops when applicable. This event exists to allow
-for more in depth conversations and general socializing.
+Everything we do is centered on bringing people together.
 
-## Benefits
+## How Sponsorship Works
 
-As a sponsor, you will get the chance to speak to the crowd at the given event
-and pitch your company (or whatever it is you'd like to pitch). Sponsors
-generally speak for a minute or two, but up to five minutes isn't unheard of
-(although, don't make it too long, people will lose interest if they're being
-pitched too hard).
+Sponsoring a happy hour starts at $300. Your contribution goes toward covering a bar tab for attendees. When sponsoring drinks, bring a card and work out a maximum for the night with the bar. They're used to working with our group, so it's easy.
 
-When sponsoring an event, a Salt Lake City Developers organizer will purchase
-any food, giveaway items, or drinks (with the exception of alcohol) intended
-for the event. You should contribute by donating to the Meetup. When sponsoring
-drinks at a bar, you should bring a card for and work out a maximum for the
-night with the bar. They're used to this for our group, so it's quite easy.
+A Salt Lake City Developers organizer will coordinate with you on logistics, timing, and any details specific to the venue.
 
-For either presentation nights or happy hours, we can provide table space for
-you to put out materials, or hand out swag for your company as desired, but that
-is not expected or required. Cards can be given by anyone regardless of
-sponsorship, but additional marketing is always reserved for sponsors.
+## What You Get
 
-All sponsors will be listed on our Meetup.com sponsors page
-(https://www.meetup.com/slcdevs/sponsors/) for a month after sponsoring a given
-event. You can provide a title and description that fits your brand, as well as
-a square image (usually a logo). All sponsors links will link to a specified
-landing page.
+At the event, you'll have a chance to say a few words to the crowd. Keep it short and real. A minute or two to introduce your company goes a long way. People tune out anything that feels like a hard sell.
 
-If you desire, your company can also be listed as currently hiring on our agenda
-that is available (both during the event, and historically) to help in your
-recruiting efforts.
+You can bring swag, set out materials, or hand out cards if you'd like, but none of that is expected.
 
-And lastly, while not an easily measured benefit, by becoming a sponsor, you are
-providing a brand presence in the local tech scene. From our observations,
-developers aspire to work at companies that they know about. This provides you
-a marketing channel to become more well known, often to developers who are
-looking for new opportunities.
+All sponsors are listed on our [Meetup sponsors page](https://www.meetup.com/slcdevs/sponsors/) for a month after the event, with your logo, a short description, and a link to wherever you'd like to send people.
 
-## Additional benefits
+If you're hiring, we can also include your company on event materials as currently looking for people.
 
-Additional benefits can be arranged, and will be provided to long term sponsors,
-such as branding on SLC Developers sponsored presentations, name tags provided
-to every member attending an event, your-company-hosted events marketed by us,
-or whatever else you'd like to do. If you're interested in becoming a larger
-sponsor, or have any questions at all, feel free to get in touch with the
-leadership team.
+## Why It Matters
+
+By sponsoring, you're putting your brand in front of the local tech community in a setting where people are relaxed and actually paying attention. Developers tend to remember the companies that show up and support the scene. That kind of visibility is hard to buy anywhere else.
+
+## Interested?
+
+Reach out to the leadership team. We're happy to answer questions, talk about what works, or set up something custom for larger or recurring sponsorships.
 

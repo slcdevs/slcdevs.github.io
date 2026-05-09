@@ -1,0 +1,19 @@
+services:
+  jekyll:
+    image: jekyll/jekyll:4
+    command: jekyll serve --incremental --force_polling --livereload
+    ports:
+      - "4000:4000"
+      - "35729:35729"
+    volumes:
+      - .:/srv/jekyll
+      - jekyll_bundle:/usr/local/bundle
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:4000"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+      start_period: 120s
+
+volumes:
+  jekyll_bundle:

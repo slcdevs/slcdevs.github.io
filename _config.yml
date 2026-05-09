@@ -1,2 +1,9 @@
 title: Salt Lake City Developers
+description: A software and technology meetup in Salt Lake City. Happy hours, good conversations, and the local tech community.
+url: https://slcdevs.com
 include: ['_pages']
+
+social:
+  meetup: https://www.meetup.com/slcdevs/
+  discord: https://discord.gg/GB97HVnymS
+  github: https://github.com/slcdevs

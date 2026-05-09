@@ -1,4 +1,9 @@
 # gitignore - Specifies intentionally untracked files to ignore
 # https://git-scm.com/docs/gitignore
 
-_site
+_site/
+.jekyll-cache/
+.sass-cache/
+Gemfile.lock
+.bundle/
+vendor/

@@ -7,11 +7,6 @@
   <title>{{ page.title | default: site.title }}</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
 
-  <meta property="og:title" content="{{ page.title | default: site.title }}">
-  <meta property="og:description" content="{{ page.description | default: site.description }}">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-
   <link rel="manifest" href="/site.webmanifest">
   <link rel="apple-touch-icon" href="/icon.png">
   <meta name="theme-color" content="#111">
@@ -22,9 +17,19 @@
 
   <link rel="stylesheet" href="/css/main.css">
 </head>
-<body class="page-home">
+<body>
 
-  {{ content }}
+  <nav class="page-nav">
+    <a href="/" class="page-nav-back">&larr; SLCDevs</a>
+  </nav>
+
+  <div class="page-content">
+    {{ content }}
+  </div>
+
+  <footer class="site-footer" style="position: static; padding: 2rem 1rem;">
+    <p>&copy; {{ 'now' | date: '%Y' }} Salt Lake City Developers</p>
+  </footer>
 
   <script src="/js/main.js"></script>
 </body>
